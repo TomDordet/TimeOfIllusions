@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeOfIllusions", "TimeOfIllusions\TimeOfIllusions.csproj", "{EAC69402-6CB5-449D-8B11-C34476DB40B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAC69402-6CB5-449D-8B11-C34476DB40B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAC69402-6CB5-449D-8B11-C34476DB40B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAC69402-6CB5-449D-8B11-C34476DB40B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAC69402-6CB5-449D-8B11-C34476DB40B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
