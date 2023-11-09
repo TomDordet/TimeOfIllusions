@@ -18,11 +18,12 @@ namespace TimeOfIllusions
         public Player()
         {
             this.health = 100;
-            this.currentHealth = 100;
-            this._weapons.Add(new Weapon("Baton en bois", 1, 5, 1, false));
+            this.currentHealth = this.health;
+            this._weapons.Add(new Weapon("Baton en bois", 1, 5, 1, true));
+            this._armors.Add(new Armor("Vêtement simple", 4, true));
             this.minAttack = _weapons[0].MinAttack;
             this.maxAttack = _weapons[0].MaxAttack;
-            this.defense = 0;
+            this.defense = _armors[0].Defense;
             
         }
 
@@ -73,5 +74,7 @@ namespace TimeOfIllusions
             get { return _potions; }
             set { _potions = value; }
         }
+        
+        
     }
 }
